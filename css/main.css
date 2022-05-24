@@ -1,0 +1,110 @@
+body{
+	margin:0 auto;
+}
+header{
+	background:url(../img/BG.jpg)no-repeat top center / cover;	
+}
+.container{
+	margin-left: 220px;
+	margin-right: 220px;
+}
+.Ingredients{
+	width: 570px;
+	text-align: center;
+	margin-left: auto;
+	padding-top:100px;
+}
+.Ingredients-info{
+	padding: 85px;
+	background:black;
+	opacity:0.8;
+}
+.title{
+	font-size: 36px;
+	color:#ffffff;
+	margin: 0 auto;
+}
+.text{
+	color:#ffffff;
+	font-size: 16px;
+	padding: 70px 0px 70px 0px;
+}
+
+.menu{
+	background: url(../img/sbag.jpg)no-repeat top center / cover;
+	padding: 100px 0px 70px 0px;
+}
+.menu-Appetisers{
+	width: 430px;
+}
+.food{
+	width: 430px;
+}
+.menu-title{
+	text-align: center;
+	font-size: 36px;
+	color: #cc9900;
+	padding-bottom: 70px;
+	margin: 0;
+}
+.line-1{
+	display: flex;
+	justify-content:space-around;
+}
+.line-2{
+	display: flex;
+	justify-content: space-around;
+}
+.dish {
+	color:#cc9900;
+	margin: 0;
+	display: flex;
+}
+.price{
+	color:#cc9900;
+	margin-left: auto;
+}
+.description{
+	font-size: 16px;
+}
+.brd{
+	border: 1px solid; 
+    color: #cc9900; /* Цвет фона */
+}
+.special{
+	margin-left: auto;
+	width: 70px;
+	color: white;
+	background: #cc9900;
+	display: block;
+	text-align: center;
+}
+@media screen and (max-width: 425px){
+	header{
+
+	}
+	.container{
+		margin: 0;
+	}
+	.Ingredients{
+		padding: 0;
+		width: 100%;
+		
+	}
+	.Ingredients-info{
+		padding: 10px;
+	}
+	.ingredients-photo{
+		width: 90%;
+	}
+	.line-1{
+		display: block;
+	}
+	.line-2{
+		display: block;
+	}
+	.food{
+		width: 380px;
+		margin: 0 auto;
+	}
+}
